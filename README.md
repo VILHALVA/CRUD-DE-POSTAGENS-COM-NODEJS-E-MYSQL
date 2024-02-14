@@ -94,6 +94,16 @@ unzip CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL.zip
 4. **Executando o Aplicativo:**
 
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
+
+   - Para subir o servidor, no diretório do seu [projeto](./CODIGO/APP.js), digite o seguinte comando no Terminal/CMD:
+   ```bash
+   node APP.js
+   ```
+   - OU:
+   ```bash
+   nodemon APP.js
+   ```
+
    - Acesse o APP no navegador visitando `http://localhost:8081`.
 
 ## NÃO SABE?
