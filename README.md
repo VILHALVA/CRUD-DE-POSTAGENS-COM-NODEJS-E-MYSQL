@@ -1,0 +1,112 @@
+# CRUD DE POSTAGENS COM NODEJS E MYSQL
+👨‍🏫APP BÁSICO DE POSTAGENS (CRUD) COMO O INSTAGRAM (SOMENTE TEXTO) COM O NODEJS E MYSQL.
+
+<img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_3.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_4.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_5.png" align="center" width="500"> <br> 
+
+## DESCRIÇÃO:
+Este aplicativo é uma plataforma para criar, visualizar, editar e excluir [(CRUD)](./CRUD.md) postagens. Aqui está uma descrição mais detalhada das funcionalidades:
+
+1. **Criação de Novas Postagens**: Os usuários podem criar novas postagens preenchendo um formulário com um título e conteúdo e enviando-o. Isso é feito através do formulário "Nova Postagem!" na página principal.
+
+2. **Visualização de Todas as Postagens**: Todas as postagens existentes são exibidas em uma tabela na página principal. Cada postagem é exibida com seu ID, título e conteúdo.
+
+3. **Edição de Postagens**: Os usuários podem editar uma postagem existente clicando no botão de edição associado a cada postagem na tabela. Isso os levará a uma página de edição onde podem modificar o título e o conteúdo da postagem.
+
+4. **Exclusão de Postagens**: Os usuários podem excluir uma postagem existente clicando no botão de exclusão associado a cada postagem na tabela. Isso removerá permanentemente a postagem do banco de dados.
+
+5. **Layout Responsivo e Estilizado**: Você tem a opção de estilizar o aplicativo conforme sua preferência, seja utilizando CSS tradicional ou a biblioteca Bootstrap.
+
+## COMO USAR?
+### BAIXANDO O PROJETO:
+* Clone o repositório para o seu sistema local:
+
+```bash
+git clone https://github.com/VILHALVA/CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL.git
+```
+
+* Navegue até o diretório do projeto.
+
+```bash
+cd CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL
+```
+
+* Descompacte o arquivo ZIP (se você baixou manualmente):
+
+```bash
+unzip CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL.zip
+```
+
+### EXECUTANDO O PROJETO:
+1. **Configuração do Banco de Dados:**
+
+   - [Crie](DATABASE.sql) um banco de dados MySQL chamado `postapp`:
+   ```sql
+   CREATE DATABASE postapp;
+   ```
+
+   - Execute o seguinte comando SQL para criar a tabela `postagens`:
+
+   ```sql
+   CREATE TABLE postagens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    conteudo TEXT,
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+   );
+   ```
+
+2. **Configuração do JS:**
+
+   - Abra o arquivo `./CODIGO/models/db.js` e ajuste as configurações do seu banco de dados nos parâmetros de `sequelize`:
+
+     ```javascript
+     database = "postapp";
+     username = "seu_usuario";
+     usersenha = "sua_senha";
+     ```
+
+3. **Instalando as Depêndencias:**
+
+   - Para instalar as dependências listadas no arquivo "package.json", você pode usar o comando `npm install` ou simplesmente `npm i` no terminal. Certifique-se de estar no diretório do seu projeto onde o arquivo "package.json" está localizado. O npm irá ler o arquivo "package.json" e instalar todas as dependências listadas nele. 
+
+   - Aqui está o comando:
+
+   ```bash
+   npm install
+   ```
+
+   ou
+
+   ```bash
+   npm i
+   ```
+
+   - Ou se você prefirir, apenas execute esse comando:
+   ```bash
+   npm install express
+   ```
+
+4. **Executando o Aplicativo:**
+
+   - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
+   - Acesse o APP no navegador visitando `http://localhost:8081`.
+
+## NÃO SABE?
+- Entendemos que para manipular arquivos em `HTML`, `CSS` e outras linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
+* [CURSO DE HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
+* [CURSO DE NODEJS](https://github.com/VILHALVA/CURSO-DE-NODEJS)
+* [CURSO DE MYSQL](https://github.com/VILHALVA/CURSO-DE-MYSQL)
+* [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+
+## CREDITOS:
+- [PROJETO CRIADO PARA O CURSO DE NODEJS](https://github.com/VILHALVA/CURSO-DE-NODEJS)
+- [PROJETO EDITADO PELO VILHALVA](https://github.com/VILHALVA)
+
+
+
+
