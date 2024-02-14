@@ -43,7 +43,7 @@ unzip CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL.zip
 ### EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
 
-   - [Crie](DATABASE.sql) um banco de dados MySQL chamado `postapp`:
+   - [Crie](./CODIGO/DATABASE.sql) um banco de dados MySQL chamado `postapp`:
    ```sql
    CREATE DATABASE postapp;
    ```
