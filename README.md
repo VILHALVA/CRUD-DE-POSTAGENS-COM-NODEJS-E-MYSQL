@@ -1,11 +1,11 @@
 # CRUD DE POSTAGENS COM NODEJS E MYSQL
 👨‍🏫APP BÁSICO DE POSTAGENS (CRUD) COMO O INSTAGRAM (SOMENTE TEXTO) COM O NODEJS E MYSQL.
 
-<img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br> 
-<img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br> 
-<img src="./IMAGENS/FOTO_3.png" align="center" width="500"> <br> 
-<img src="./IMAGENS/FOTO_4.png" align="center" width="500"> <br> 
-<img src="./IMAGENS/FOTO_5.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_01.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_02.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_03.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_04.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_05.png" align="center" width="500"> <br> 
 
 ## DESCRIÇÃO:
 Este aplicativo é uma plataforma para criar, visualizar, editar e excluir [(CRUD)](./CRUD.md) postagens. Aqui está uma descrição mais detalhada das funcionalidades:
@@ -18,7 +18,7 @@ Este aplicativo é uma plataforma para criar, visualizar, editar e excluir [(CRU
 
 4. **Exclusão de Postagens**: Os usuários podem excluir uma postagem existente clicando no botão de exclusão associado a cada postagem na tabela. Isso removerá permanentemente a postagem do banco de dados.
 
-5. **Layout Responsivo e Estilizado**: Você tem a opção de estilizar o aplicativo conforme sua preferência, seja utilizando CSS tradicional ou a biblioteca Bootstrap.
+5. **Layout Responsivo e Estilizado**: Estilo escuro e bonito foi adicionado ao código HTML, utilizando uma paleta de cores predominantemente escura, com elementos em destaque em tons de vermelho (#ff6f61). As formas dos elementos foram suavizadas com bordas arredondadas, e os botões apresentam uma aparência de destaque quando são hoverados. O formulário e a tabela foram estilizados para ter uma aparência limpa e moderna, com contraste adequado para facilitar a leitura.
 
 ## COMO USAR?
 ### BAIXANDO O PROJETO:
