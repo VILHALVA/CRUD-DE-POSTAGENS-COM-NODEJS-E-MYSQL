@@ -8,7 +8,7 @@
 <img src="./IMAGENS/FOTO_05.png" align="center" width="500"> <br> 
 
 ## DESCRIÇÃO:
-Este aplicativo é uma plataforma para criar, visualizar, editar e excluir [(CRUD)](./CRUD.md) postagens. Aqui está uma descrição mais detalhada das funcionalidades:
+Este aplicativo é uma plataforma para criar, visualizar, editar e excluir (CRUD) postagens. Aqui está uma descrição mais detalhada das funcionalidades:
 
 1. **Criação de Novas Postagens**: Os usuários podem criar novas postagens preenchendo um formulário com um título e conteúdo e enviando-o. Isso é feito através do formulário "Nova Postagem!" na página principal.
 
@@ -20,48 +20,11 @@ Este aplicativo é uma plataforma para criar, visualizar, editar e excluir [(CRU
 
 5. **Layout Responsivo e Estilizado**: Estilo escuro e bonito foi adicionado ao código HTML, utilizando uma paleta de cores predominantemente escura, com elementos em destaque em tons de vermelho (#ff6f61). As formas dos elementos foram suavizadas com bordas arredondadas, e os botões apresentam uma aparência de destaque quando são hoverados. O formulário e a tabela foram estilizados para ter uma aparência limpa e moderna, com contraste adequado para facilitar a leitura.
 
-## COMO USAR?
-### BAIXANDO O PROJETO:
-* Clone o repositório para o seu sistema local:
-
-```bash
-git clone https://github.com/VILHALVA/CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL.git
-```
-
-* Navegue até o diretório do projeto.
-
-```bash
-cd CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL
-```
-
-* Descompacte o arquivo ZIP (se você baixou manualmente):
-
-```bash
-unzip CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL.zip
-```
-
-### EXECUTANDO O PROJETO:
+## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-
-   - [Crie](./CODIGO/DATABASE.sql) um banco de dados MySQL chamado `postapp`:
-   ```sql
-   CREATE DATABASE postapp;
-   ```
-
-   - Execute o seguinte comando SQL para criar a tabela `postagens`:
-
-   ```sql
-   CREATE TABLE postagens (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    titulo VARCHAR(255) NOT NULL,
-    conteudo TEXT,
-    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-   );
-   ```
+   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`. Se não estiver familiarizado com o processo de importação, [confira este curso](https://github.com/VILHALVA/CURSO-DE-MYSQL) para orientações detalhadas.
 
 2. **Configuração do JS:**
-
    - Abra o arquivo `./CODIGO/models/db.js` e ajuste as configurações do seu banco de dados nos parâmetros de `sequelize`:
 
      ```javascript
@@ -71,7 +34,6 @@ unzip CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL.zip
      ```
 
 3. **Instalando as Depêndencias:**
-
    - Para instalar as dependências listadas no arquivo "package.json", você pode usar o comando `npm install` ou simplesmente `npm i` no terminal. Certifique-se de estar no diretório do seu projeto onde o arquivo "package.json" está localizado. O npm irá ler o arquivo "package.json" e instalar todas as dependências listadas nele. 
 
    - Aqui está o comando:
@@ -92,7 +54,6 @@ unzip CRUD-DE-POSTAGENS-COM-NODEJS-E-MYSQL.zip
    ```
 
 4. **Executando o Aplicativo:**
-
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
 
    - Para subir o servidor, no diretório do seu [projeto](./CODIGO/APP.js), digite o seguinte comando no Terminal/CMD:
