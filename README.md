@@ -54,8 +54,6 @@ Este aplicativo é uma plataforma para criar, visualizar, editar e excluir (CRUD
    ```
 
 4. **Executando o Aplicativo:**
-   - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-
    - Para subir o servidor, no diretório do seu [projeto](./CODIGO/APP.js), digite o seguinte comando no Terminal/CMD:
    ```bash
    node APP.js
