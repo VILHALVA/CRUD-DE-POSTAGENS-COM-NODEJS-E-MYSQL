@@ -71,6 +71,7 @@ Este aplicativo é uma plataforma para criar, visualizar, editar e excluir (CRUD
 * [CURSO DE NODEJS](https://github.com/VILHALVA/CURSO-DE-NODEJS)
 * [CURSO DE MYSQL](https://github.com/VILHALVA/CURSO-DE-MYSQL)
 * [CURSO DE NODEJS COM MYSQL](https://github.com/VILHALVA/CURSO-DE-NODEJS-COM-MYSQL)
+* [CURSO DE EXPRESSJS](https://github.com/VILHALVA/CURSO-DE-EXPRESSJS)
 * [CURSO DE HANDLEBARS](https://github.com/VILHALVA/CURSO-DE-HANDLEBARS)
 * [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
